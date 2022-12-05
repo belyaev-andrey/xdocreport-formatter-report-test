@@ -42,6 +42,9 @@
             <column name="ID" value="60885987-1b61-4247-94c7-dff348347f93"/>
             <column name="VERSION" value="1"/>
             <column name="USERNAME" value="admin"/>
+            <column name="FIRST_NAME" value="John"/>
+            <column name="LAST_NAME" value="Doe"/>
+            <column name="EMAIL" value="admin@xdoctest.org"/>
             <column name="PASSWORD" value="{noop}admin"/>
             <column name="ACTIVE" valueBoolean="true"/>
         </insert>
@@ -50,6 +53,9 @@
             <column name="ID" value="608859871b61424794c7dff348347f93"/>
             <column name="VERSION" value="1"/>
             <column name="USERNAME" value="admin"/>
+            <column name="FIRST_NAME" value="John"/>
+            <column name="LAST_NAME" value="Doe"/>
+            <column name="EMAIL" value="admin@xdoctest.org"/>
             <column name="PASSWORD" value="{noop}admin"/>
             <column name="ACTIVE" valueBoolean="true"/>
         </insert>

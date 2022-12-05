@@ -14,4 +14,31 @@
             <column name="NAME" type="VARCHAR(255)"/>
         </createTable>
     </changeSet>
+
+    <changeSet id="2" author="xdocreport-report-test" context="!cuba">
+
+        <insert tableName="USER_" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="6e20eef4-7f65-4e90-b7ce-1880eee66b33"/>
+            <column name="VERSION" value="1"/>
+            <column name="USERNAME" value="developer"/>
+            <column name="FIRST_NAME" value="Jane"/>
+            <column name="LAST_NAME" value="Doe"/>
+            <column name="EMAIL" value="developer@xdoctest.org"/>
+            <column name="PASSWORD" value="{noop}developer"/>
+            <column name="ACTIVE" valueBoolean="true"/>
+        </insert>
+
+        <insert tableName="USER_" dbms="oracle, mysql, mariadb">
+            <column name="ID" value="6e20eef47f654e90b7ce1880eee66b33"/>
+            <column name="VERSION" value="1"/>
+            <column name="USERNAME" value="developer"/>
+            <column name="FIRST_NAME" value="Jane"/>
+            <column name="LAST_NAME" value="Doe"/>
+            <column name="EMAIL" value="developer@xdoctest.org"/>
+            <column name="PASSWORD" value="{noop}developer"/>
+            <column name="ACTIVE" valueBoolean="true"/>
+        </insert>
+
+    </changeSet>
+
 </databaseChangeLog>
